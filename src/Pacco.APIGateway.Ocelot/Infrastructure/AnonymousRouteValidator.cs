@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
+
 using Microsoft.Extensions.Options;
 
 namespace Pacco.APIGateway.Ocelot.Infrastructure

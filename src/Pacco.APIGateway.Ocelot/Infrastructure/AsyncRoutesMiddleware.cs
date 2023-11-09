@@ -1,15 +1,18 @@
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Convey.MessageBrokers.RabbitMQ;
 using Convey.MessageBrokers.RabbitMQ.Conventions;
+
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
+
 using Newtonsoft.Json.Linq;
+
 using OpenTracing;
 
 namespace Pacco.APIGateway.Ocelot.Infrastructure

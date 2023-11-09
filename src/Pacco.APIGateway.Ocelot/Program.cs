@@ -1,5 +1,7 @@
 using System.Threading.Tasks;
+
 using App.Metrics.AspNetCore;
+
 using Convey;
 using Convey.Auth;
 using Convey.Logging;
@@ -9,6 +11,7 @@ using Convey.Security;
 using Convey.Tracing.Jaeger;
 using Convey.Types;
 using Convey.WebApi;
+
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -16,9 +19,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Ocelot.Provider.Polly;
+
 using Pacco.APIGateway.Ocelot.Infrastructure;
 
 namespace Pacco.APIGateway.Ocelot
